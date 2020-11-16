@@ -3,10 +3,11 @@
         "documentationSidebar": 
             [
   {
-    "label": "Homepage",
+    "label": "Getting Started",
     "type": "category",
     "items": [
-      "introduction"
+      "introduction",
+      "how_to_create_documentation"
     ]
   },
   {
@@ -31,7 +32,15 @@
     "items": [
       "fork_from_github",
       "untitled_content_item_b8726ea",
-      "untitled_content_item_70c122b"
+      "untitled_content_item_70c122b",
+      "site_configuration"
+    ]
+  },
+  {
+    "label": "Running the Site",
+    "type": "category",
+    "items": [
+      "commands"
     ]
   },
   {
@@ -42,10 +51,11 @@
     ]
   },
   {
-    "label": "Running the Site",
+    "label": "Additional Features",
     "type": "category",
     "items": [
-      "commands"
+      "callouts",
+      "styling"
     ]
   }
 ]

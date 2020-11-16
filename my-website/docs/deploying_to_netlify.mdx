@@ -4,5 +4,19 @@ title: Deploying to Netlify
 sidebar_label: Deploying to Netlify
 slug: deploying-to-netlify
 ---
-\
+When [deploying to Netlify](https://v2.docusaurus.io/docs/deployment#deploying-to-netlify "Docusaurus Deploying to Netlify"), set:
+
+**    Base Directory: **my-website
+
+**    Build Command:** npm run kontent && npm run build
+
+**    Publish Directory:** build
+
+as well as the environmental variables  mentioned in the [Add Environmental Variables](add-environment-variables) section.
+
+:::tip Automation with Netlify
+
+For more advanced automation and build options, information about leveraging Kentico Kontent webhooks and Netlify build triggers can be seen in the [official Kentico Kontent documentation](https://docs.kontent.ai/tutorials/develop-apps/integrate/netlify-automation "Build production and preview static sites with Netlify").
+
+:::
 
